@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(315deg, rgba(52,89,149,1) 0%, rgba(3,206,164,1) 37%, rgba(234,196,53,1) 100%);
+    font-family: Raleway, sans-serif;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-size: 2.5rem
+}
+.contentContainer {
+    color: #fff;
+}
+.color1 {
+    color: #EAC435;
+}
+.color2 {
+    color: #345995;
+}
+.color3 {
+    color: #03CEA4;
+}
