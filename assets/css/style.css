@@ -1,19 +1,24 @@
 body {
-    background: linear-gradient(315deg, rgba(52,89,149,1) 0%, rgba(3,206,164,1) 37%, rgba(234,196,53,1) 100%);
-    font-family: Raleway, sans-serif;
+    background: linear-gradient(315deg, rgba(52, 89, 149, 1) 0%, rgba(20, 166, 159, 0.50) 65%, rgba(3, 206, 164, 0) 100%);
     background-attachment: fixed;
     background-size: 100%;
-    font-size: 2.5rem
+    font-size: 2rem;
 }
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.blackBackground {
+    background-color: #000;
+}
+
 .contentContainer {
-    color: #fff;
-}
-.color1 {
-    color: #EAC435;
-}
-.color2 {
-    color: #345995;
-}
-.color3 {
-    color: #03CEA4;
+    background-color: #fff;
+    color: #000;
+    border-radius: 1em;
 }
