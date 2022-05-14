@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 li {
@@ -19,6 +19,10 @@ li {
 
 ul {
     padding-inline-start: 0px;
+}
+
+.accordionButtonText {
+    font-size: .8em;
 }
 
 .elementsMargin {
@@ -34,6 +38,11 @@ ul {
     background-color: rgba(255, 255, 255, 0.5);
     color: #000;
     border-radius: 1em;
+}
+
+.progressBarSize {
+    height: 2em;
+    font-size: .7em;
 }
 
 #progressBarHTML {
@@ -107,6 +116,11 @@ ul {
 
 #colorBarSQL {
     background-color: #00a5e4
+}
+
+#colorBarReact {
+    background-color: #61DBFA;
+    color: #000;
 }
 
 #dbSchenker {
@@ -187,4 +201,43 @@ ul {
     width: 2em;
     height: 2em;
     margin-right: 1em;
+}
+
+@media all and (min-width: 576px) and (max-width: 1024px) {
+
+    body {
+        font-size: 3em;
+    }
+
+    .accordionButtonText {
+        font-size: 1em;
+    }
+
+    .laManuImg {
+        width: 500px;
+        height: 150px;
+    }
+
+    .marginComponents {
+        margin-top: 2em;
+    }
+    
+    #linkedInLogo {
+        width: 2em;
+        height: 2em;
+        margin-right: 0;
+    }
+    
+    #mailIcon {
+        width: 2em;
+        height: 2em;
+        margin-right: 0;
+    }
+
+    #phoneIcon {
+        width: 2em;
+        height: 2em;
+        margin-right: 0;
+    }
+
 }
