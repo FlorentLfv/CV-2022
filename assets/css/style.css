@@ -13,12 +13,178 @@ h2 {
     font-size: 1.5em;
 }
 
-.blackBackground {
-    background-color: #000;
+li {
+    list-style: none
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+.elementsMargin {
+    margin-bottom: 2em;
+}
+
+.accordionContainer{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #000;
 }
 
 .contentContainer {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
     color: #000;
     border-radius: 1em;
+}
+
+#progressBarHTML {
+    height: 2em;
+    font-size: .7em;
+}
+
+#colorBarHTML {
+    background-color: #dd4b25
+}
+
+#progressBarCSS {
+    height: 2em;
+    font-size: .7em;
+}
+
+#colorBarCSS {
+    background-color: #254bdd
+}
+
+#progressBarGithub {
+    height: 2em;
+    font-size: .7em;
+}
+
+#colorBarGithub {
+    background-color: #1a1e22
+}
+
+#progressBarPHP {
+    height: 2em;
+    font-size: .7em;
+}
+
+#colorbarPHP {
+    background-color: #7377ad
+}
+
+#progressBarJS {
+    height: 2em;
+    font-size: .7em;
+}
+
+#colorBarJS {
+    background-color: #f7d724;
+    color: #000
+}
+
+#progressBarBS {
+    height: 2em;
+    font-size: .7em;
+}
+
+#colorBarBS {
+    background-color: #7952b3
+}
+
+#progressBarWP {
+    height: 2em;
+    font-size: .7em;
+}
+
+#colorBarWP {
+    background-color: #0083b8
+}
+
+#progressBarSQL {
+    height: 2em;
+    font-size: .7em;
+}
+
+#colorBarSQL {
+    background-color: #00a5e4
+}
+
+#dbSchenker {
+    width: 12em;
+    height: 3em;
+}
+
+#alplaImg {
+    width: 9em;
+    height: 3em;
+}
+
+#pharmacieImg {
+    width: 7em;
+    height: 7em;
+}
+
+.laManuImg {
+    margin-top: .7em;
+    margin-bottom: 1em;
+}
+
+.icons {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+#phpIcon {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+#contactButtonText {
+    font-size: 1em;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+#mailLink {
+    color: #000;
+}
+
+#mailLink:hover {
+    color: #fff;
+}
+
+#phoneLink {
+    color: #000;
+}
+
+#phoneLink:hover {
+    color: #fff;
+}
+
+#linkedInLink {
+    color: #000;
+}
+
+#linkedInLink:hover {
+    color: #fff;
+}
+
+#mailIcon {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+}
+
+#phoneIcon {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+}
+
+#linkedInLogo {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
 }
