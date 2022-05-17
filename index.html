@@ -58,12 +58,17 @@
                   <ul class="col-10 offset-1">
                     <li>
                       <img src="https://lamanu.fr/wp-content/themes/lamanu2021/assets/identite-lamanu/LaManuUltraCompact_RVB_white.svg" alt="Accueil - La Manu" class="laManuImg" />
-                    <p>2022 : Formation <strong>Développeur Applications Mobiles</strong> chez <strong>LA MANU</strong></p>
+                      <p>2022 : Formation <strong>Développeur Applications Mobiles</strong> chez <strong>LA MANU</strong></p>
                     </li>
                     <hr />
                     <li>
                       <img src="https://lamanu.fr/wp-content/themes/lamanu2021/assets/identite-lamanu/LaManuUltraCompact_RVB_white.svg" alt="Accueil - La Manu" class="laManuImg" />
                       <p class="mb-3">2020-2021 : Diplôme <strong>Développeur Web et Web Mobile</strong> chez <strong>LA MANU</strong></p>
+                    </li>
+                    <hr />
+                    <li>
+                      <img src="assets/img/Farmacia2.svg" alt="Logo pharmacie" id="pharmacieImg" />
+                      <p><strong>Préparateur en pharmacie - Pharmacie Gilbergue</strong><br>Septembre 2017 - Juin 2018<br>Réception, préparation et délivrance de médicaments.</p>
                     </li>
                     <hr />
                     <li>
@@ -80,6 +85,7 @@
             <div class="accordion-item text-center">
               <h2 class="accordion-header" id="headingTwo">
                 <button
+                  onclick="scrollAccordion()"
                   class="accordion-button collapsed text-black accordionButtonText fw-bold"
                   type="button"
                   data-bs-toggle="collapse"
@@ -117,11 +123,6 @@
                         <img src="assets/img/logo-ns.svg" alt="Logo NUTRITION & SANTÉ" />
                         <p><strong>Opérateur Production - NUTRITION & SANTÉ</strong><br>Août 2019 - Août 2019<br>Travail sur différents postes de l'usine.</p>
                     </li>
-                    <hr />
-                    <li class="mb-2">
-                        <img src="assets/img/Farmacia2.svg" alt="Logo pharmacie" id="pharmacieImg" />
-                        <p><strong>Préparateur en pharmacie - Pharmacie Gilbergue</strong><br>Septembre 2017 - Juin 2018<br>Réception, préparation et délivrance de médicaments.</p>
-                    </li>
                 </ul>
                 </div>
               </div>
@@ -129,6 +130,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button
+                  onclick="scrollAccordion()"
                   class="accordion-button collapsed text-black accordionButtonText fw-bold"
                   type="button"
                   data-bs-toggle="collapse"
@@ -259,5 +261,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
