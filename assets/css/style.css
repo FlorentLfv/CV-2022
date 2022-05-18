@@ -21,6 +21,17 @@ ul {
     padding-inline-start: 0px;
 }
 
+#scrollToTop {
+    position: fixed;
+    width: 4em;
+    height: 4em;
+    bottom: 3em;
+    right: 3em;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 100%;
+}
+
 .accordionButtonText {
     font-size: .8em;
 }
@@ -29,7 +40,7 @@ ul {
     margin-bottom: 2em;
 }
 
-.accordionContainer{
+.accordionContainer {
     background-color: rgba(255, 255, 255, 0.1);
     color: #000;
 }
@@ -221,13 +232,13 @@ ul {
     .marginComponents {
         margin-top: 2em;
     }
-    
+
     #linkedInLogo {
         width: 2em;
         height: 2em;
         margin-right: 0;
     }
-    
+
     #mailIcon {
         width: 2em;
         height: 2em;
@@ -240,4 +251,17 @@ ul {
         margin-right: 0;
     }
 
+    #contactButtonText {
+        font-size: 1.2em;
+    }
+
+    #scrollToTop {
+        position: fixed;
+        width: 4em;
+        height: 4em;
+        bottom: 1.5em;
+        right: 1.5em;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 100%;
+    }
 }

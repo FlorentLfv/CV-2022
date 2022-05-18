@@ -32,12 +32,13 @@
         </p>
       </div>
       
-      <div class="row">
+      <div class="row" id="Accordion">
         <div class="col-lg-8 offset-lg-2">
           <div class="accordion accordionContainer" id="accordionExample">
-            <div class="accordion-item text-center">
+            <div class="accordion-item text-center" id="formationsAccordion">
               <h2 class="accordion-header" id="headingOne">
                 <button
+                  onclick="scrollTopAccordion()"
                   class="accordion-button collapsed text-black accordionButtonText fw-bold"
                   type="button"
                   data-bs-toggle="collapse"
@@ -82,10 +83,10 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item text-center">
+            <div class="accordion-item text-center" id="experiencesAccordion">
               <h2 class="accordion-header" id="headingTwo">
                 <button
-                  onclick="scrollAccordion()"
+                  onclick="scrollTopAccordion()"
                   class="accordion-button collapsed text-black accordionButtonText fw-bold"
                   type="button"
                   data-bs-toggle="collapse"
@@ -127,10 +128,10 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item" id="skillsAccordion">
               <h2 class="accordion-header" id="headingThree">
                 <button
-                  onclick="scrollAccordion()"
+                  onclick="scrollTopAccordion()"
                   class="accordion-button collapsed text-black accordionButtonText fw-bold"
                   type="button"
                   data-bs-toggle="collapse"
@@ -242,6 +243,11 @@
                 </div>
               </div>
             </div>
+          </div>
+          <div>
+            <button onclick="scrollTopButton()" class="btn btn-lg" id="scrollToTop" type="button">
+              <img id="upArrow" src="./assets/img/up-arrow.svg" alt="Image flèche vers le haut">
+            </button>
           </div>
         </div>
       </div>
